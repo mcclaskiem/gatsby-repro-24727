@@ -1,0 +1,47 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Bebas Neue', serif;
+}
+
+p,
+a,
+span,
+input,
+button,
+textarea {
+  font-family: 'Averia Serif Libre', serif;
+}
+
+h1 {
+  font-size: 4.6em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 3.6em;
+}
+
+h3 {
+  font-size: 2.8em;
+}
+
+p {
+  font-size: 1.8em;
+  line-height: 1.5em;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+div[role='group'][tabindex] {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
